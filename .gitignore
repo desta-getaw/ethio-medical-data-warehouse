@@ -1,0 +1,53 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+.desvenv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Secrets and environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+
+# dbt artifacts
+dbt/target/
+dbt/dbt_modules/
+dbt/.dbt/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+
+# Data
+data/
+!data/README.md  # keep empty structure file if you want
+
+# Others
+*.bak
+*.tmp
+*.old
