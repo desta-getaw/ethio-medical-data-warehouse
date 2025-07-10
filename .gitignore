@@ -32,6 +32,8 @@ Thumbs.db
 *.pid
 *.seed
 docker-compose.override.yml
+docker-compose*
+Dockerfile
 
 # dbt artifacts
 dbt/target/
