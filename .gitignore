@@ -1,55 +1,78 @@
-# Byte-compiled / cache files
+### Python ###
+# Byte-compiled / optimized / cache files
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 *.so
 *.egg
 *.egg-info/
+.pytest_cache/
+
+# Installer logs / packages / builds
+pip-log.txt
+pip-delete-this-directory.txt
 dist/
 build/
+*.whl
 
-# Virtual environments
+### Virtual Environments ###
 .venv/
-.desvenv/
-env/
 venv/
+env/
 ENV/
+.env/
+.desvenv/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# Secrets and environment variables
+### Environment / Secrets ###
 .env
 .env.*
+.secrets
+*.secret
+config.yml
 
-# OS files
-.DS_Store
-Thumbs.db
+### Jupyter ###
+.ipynb_checkpoints/
+*.ipynb
 
-# Logs
-*.log
-
-# Docker
-*.pid
-*.seed
-docker-compose.override.yml
-docker-compose*
-Dockerfile
-
-# dbt artifacts
+### dbt ###
 dbt/target/
 dbt/dbt_modules/
 dbt/.dbt/
+dbt_packages/
+dbt_logs/
 
-# IDE / editor files
-.vscode/
-.idea/
-*.swp
-
-# Data
+### Data ###
 data/
-!data/README.md  # keep empty structure file if you want
+!data/README.md  # Keep empty structure file
+data/raw/        # Exclude raw data (large/sensitive)
 
-# Others
+### Docker ###
+.dockerignore
+docker-compose*
+docker-compose.override.yml
+Dockerfile
+*.pid
+*.seed
+
+### Logs ###
+*.log
+*.sqlite
+*.sqlite3
+
+### OS / Editor ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+### Temporary / Backup Files ###
 *.bak
 *.tmp
 *.old
+*.orig
+*.rej

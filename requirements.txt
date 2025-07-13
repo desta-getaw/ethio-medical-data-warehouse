@@ -1,0 +1,17 @@
+python-dotenv
+fastapi
+uvicorn
+psycopg2-binary
+SQLAlchemy
+dbt-core
+dagster
+pydantic
+requests
+telethon
+dbt-postgres
+fastapi
+python-dotenv
+ultralytics
+dagster
+dagster-webserver
+# Add other necessary packages as they arise

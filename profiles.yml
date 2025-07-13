@@ -1,0 +1,12 @@
+ethio_medical_data_warehouse:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "localhost"  # or your host
+      user: "postgres"
+      password: "1221"
+      port: 5432  # Note the quotes around the port number
+      dbname: "ethiomedica"
+      schema: "public"
+      threads: 4

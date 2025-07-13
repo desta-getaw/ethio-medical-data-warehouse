@@ -1,0 +1,1 @@
+-- Fact table: YOLO detections
