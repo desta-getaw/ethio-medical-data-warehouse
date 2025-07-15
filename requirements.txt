@@ -15,3 +15,25 @@ ultralytics
 dagster
 dagster-webserver
 # Add other necessary packages as they arise
+# Core Libraries
+python-dotenv
+pandas
+sqlalchemy
+
+# Scraping
+telethon
+
+# Data Transformation
+dbt-postgres
+
+# Data Enrichment
+ultralytics
+
+# API
+fastapi
+uvicorn[standard]
+psycopg2-binary
+
+# Orchestration
+dagster
+dagster-webserver
